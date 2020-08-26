@@ -1,0 +1,130 @@
+{
+  "settings": {
+    "name": "tiempodealternativas",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#4ea2e3",
+        "secondaryColor": "#4addff",
+        "successColor": "#0dcd7b",
+        "infoColor": "#8282e7",
+        "warningColor": "#767676",
+        "dangerColor": "#a0a0a0",
+        "mainFont": "Roboto",
+        "display1Font": "Roboto",
+        "display1Size": 4.5,
+        "display2Font": "Roboto",
+        "display2Size": 2.2,
+        "display5Font": "Roboto",
+        "display5Size": 1.8,
+        "display7Font": "Roboto",
+        "display7Size": 1.1,
+        "display4Font": "Roboto",
+        "display4Size": 0.9,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#4ea2e3"
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "imageResize": true,
+    "uniqCompNum": 5,
+    "versionPublish": "4.12.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Tiempo de alternativas en educación",
+        "meta_descr": "Declaración de las Redes de Educación Alternativa de Argentina\n ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\" checked>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white mbr-pb-2\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-title\">\n                    ES TIEMPO DE ALTERNATIVAS EN EDUCACIÓN</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white mbr-pb-3 mbr-pt-1\" mbr-theme-style=\"display-5\"><i>Declaración de las Redes de Educación Alternativa de Argentina\n&nbsp;</i></h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"index.html#content10-4\" data-app-placeholder=\"Type Text\">LEER</a>\n                    <a class=\"btn btn-info\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeNCQ_fBU_XWiQPkvcyjmL5ewWVsIQleafGXqU2XOMxzWCL5w/viewform\" data-app-placeholder=\"Type Text\" target=\"_blank\">FIRMAR</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s8IQHkCPhq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content19-0"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "blockquote": {
+              "border-color": "@lineColor"
+            }
+          },
+          "_name": "content10",
+          "_customHTML": "<section class=\"content10 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Color de Línea\" name=\"lineColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-text mbr-fonts-style mbr-col-sm-12 mbr-col-md-8\" mbr-theme-style=\"display-4\" data-multiline mbr-article>\n                <blockquote>En esta nueva normalidad que atañe muy especialmente a la educación, desde nuestras escuelas y experiencias de aprendizaje no convencionales que hace décadas venimos renovando las prácticas del enseñar y el aprender en sintonía con las necesidades que impone este nuevo contexto, queremos manifestar nuestra voluntad de contribuir a la búsqueda de las soluciones que el presente y el futuro reclaman; en tal sentido, quisiéramos ser incluidos en las instancias de consulta de políticas públicas educativas en Argentina a partir de ahora, como un sector más que puede aportar desde su experiencia.&nbsp;</blockquote><blockquote>Estamos agrupados en comunidades educativas de pequeña escala, trabajamos de forma auto gestionada y con diversidad de miradas pedagógicas y conceptos filosóficos acerca de la educación. Nos encontramos en todo el territorio nacional, formando redes regionales o de afinidad, muchas veces dentro del marco de la educación formal y también en la educación no formal e informal. \n</blockquote><blockquote>En general, podemos apreciar que nuestros espacios, donde la cercanía y el contacto físico tienen una gran relevancia, han podido adecuarse a esta modalidad remota con facilidad, y entendemos que ello se debe a que existen vínculos profundos que persisten a pesar del distanciamiento físico y que han facilitado la comunicación. Algo que pudimos poner en claro es que los aprendizajes relevantes son los que nos permiten adquirir las habilidades y herramientas para entender y saber desempeñarnos en el mundo, en el lugar y tiempo que nos toca vivir. De modo que la vida en cuarentena ya no era algo a rechazar sino algo que podía y debía significar un profundo aprendizaje. \n</blockquote><blockquote>El retorno a la escuela presencial quizás sea una excelente oportunidad para no volver “a lo mismo”, y que muchas de las prácticas y las herramientas adquiridas en esta etapa puedan enriquecer las actividades futuras en todas las escuelas. Estamos ante una oportunidad magnífica de aprovechar este quiebre obligado para desaprender y mirar la educación y los aprendizajes, el modo de evaluar y acreditar saberes, de una nueva manera, para que la educación no sea una herramienta de control y reproducción y tenga un rol emancipador y transformativo a nivel personal y social. \n</blockquote><blockquote>Los espacios educativos no convencionales, surgidos del seno de la sociedad civil organizada colectivamente de diversas maneras, queremos contribuir a esa transformación educativa que es necesaria con urgencia, aportando nuestras experiencias, que han venido operando como verdaderos “laboratorios de lo posible” en cada rincón del país. \n</blockquote><blockquote>Valoramos la presencia del Estado garantizando derechos y abordando las profundas desigualdades de nuestra sociedad y, al mismo tiempo, vemos que es necesario que se brinden las facilidades para el operar sin trabas de nuestras organizaciones sociales que tienen una conexión, un saber privilegiado por la proximidad y una valiosa diversidad que pueden aportar dentro de un sistema educativo que nos reúna a todos y a todas. En ese sentido, solicitamos que se implemente la Educación de Gestión Social, como lo establece la Ley 26206/06, artículos 13, 14 y 140 para brindar un marco propio de legalidad y financiamiento a estas experiencias, de modo que se posibilite su gratuidad. \n</blockquote><blockquote>Argentina, Julio de 2020 &nbsp;<br></blockquote><blockquote>\nFirman esta Declaración las siguientes Redes Regionales de Educación Alternativa reunidas en la Red de Redes de Argentina: &nbsp;</blockquote><blockquote>Entre Ríos (ETER) &nbsp;- Santa Fe &nbsp;- Buenos Aires (CAOS) &nbsp;- Córdoba &nbsp;- Noroeste &nbsp;- Noreste &nbsp;- Sur&nbsp;</blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s8ISOTqmCT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-4"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" plugins=\"amp-main\" group=\"Article\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Color de Fondo\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-section-btn mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-8 align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeNCQ_fBU_XWiQPkvcyjmL5ewWVsIQleafGXqU2XOMxzWCL5w/viewform\" data-app-placeholder=\"Type Text\" target=\"_blank\">FIRMAR DECLARACIÓN</a></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s8IQRurt8D",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-white mbr-p-1\">\n            <p class=\"mbr-text mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Red de Redes de Educación Alternativa de Argentina</p>\n        </div>\n    </div>\n</section>",
+          "_cid": "s8IQTu0ECw",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {},
+          "_anchor": "footer1-3"
+        }
+      ]
+    }
+  }
+}
